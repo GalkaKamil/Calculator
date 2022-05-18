@@ -1,0 +1,112 @@
+main {
+    background-color: #E6E6E6;
+    height: 500px;
+    width: 320px;
+    border: solid 1px black;
+    font-size: small;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+.iconList {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 46px;
+}
+
+.headerButton:hover {
+    background-color: #CFCFCF;
+}
+
+.headerButtonClose:hover {
+    background-color: #E81123;
+}
+
+.headerButton__line {
+    height: 1px;
+    width: 10px;
+    background-color: black;
+}
+
+.headerButton__square {
+    height: 8px;
+    width: 8px;
+    border: solid 1px black;
+}
+
+.headerButton__cross {
+    height: 13px;
+    width: 1px;
+    background-color: black;
+    transform: rotate(45deg);
+    Z-index: 1;
+}
+
+.headerButton__cross__helper {
+    height: 13px;
+    width: 1px;
+    background-color: black;
+    transform: rotate(90deg);
+    Z-index: 2;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu__tittle {
+    font-size: large;
+}
+
+.menu__hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.menu__hamburger:hover {
+    background-color: #CFCFCF;
+}
+
+.menu__hamburger__line {
+    width: 15px;
+    height: 1px;
+    background-color: black;
+    margin-left: -6px;
+
+}
+
+.firstLine {
+    margin-top: 11px;
+}
+
+.thirdLine {
+    margin-bottom: 11px;
+}
